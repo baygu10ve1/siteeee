@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<link type="image/x-icon" rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/37/37333.png">
+<head>
+<meta charset="UTF-8">
+<title>Onyx</title>
+<style type="text/css">
+a{
+color: #f5deb3;
+text-decoration: none;
+}
+font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+
+html{
+background: #f5deb3;
+min-height: 200%;
+font-family: Franklin Gothic;
+display: flex;
+flex-direction: column;
+}
+body{
+background-image: url(https://phonoteka.org/uploads/posts/2021-11/1635893144_47-phonoteka-org-p-tekhnologicheskii-fon-svetlii-krasivie-47.jpg); background-repeat: no-repeat; center: center fixed;
+-webkit-background-size: cover;
+          background-size: cover;
+	background-attachment: fixed;	
+margin: 0;
+padding: 0 20px;
+display: flex;
+flex-direction: column;
+flex: auto;
+}
+h1{
+font-size:35px;
+margin-top: 0;
+}
+img{
+border: 0;
+}
+.header{
+font-size:35px;
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: 0 auto 30px;
+padding: 30px 0 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.logo{
+font-size: 1.5rem;
+color: #green;
+text-decoration: none;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex: none;
+align-items: center;
+background: #green;
+width: 230px;
+height: 150px;
+}
+.nav{
+font-size:35px;
+margin: -5px 0 0 -5px;
+display: flex;
+flex-wrap: wrap;
+}
+.nav-item{
+font-size:35px;
+background: #2f4f4f	;
+width: 150px;
+height: 100px;
+font-size: 1.5rem;
+color: #fff;
+text-decoration: none;
+display: flex;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+}
+.sqr{
+height: 300px;
+width: 300px;
+background-image: url(https://journalchik.ru/wp-content/uploads/2021/12/kripto.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.main{
+margin: 0 auto;
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: auto;
+flex: auto;
+box-sizing: border-box;
+font-size:35px;
+}
+.box{
+font-size: 1.25rem;
+line-height: 1.5;
+margin: 0 0 40px -50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+font-size:25px;
+}
+.box-base{
+margin-left: 50px;
+flex: 1 0 430px;
+}
+.box-side{
+margin-left: 50px;
+font: none;
+}
+.box-img{
+max-width: 100%;
+height: auto;
+}
+.content{
+margin-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+}
+.banners{
+flex: 1 1 200px;
+}
+.banner1{
+background: #008080;
+background-image: url(https://you-journal.ru/wp-content/uploads/2018/07/bitok.jpeg);
+background-size: cover;
+background-position: center;
+width: 100%;
+min-width: 400px;
+min-height: 400px;
+font-size: 3rem;
+color: #fff;
+margin: 0 0 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.banner2{
+background: #008080;
+background-image: url(https://xakep.ru/wp-content/uploads/2021/06/350349/eth.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+min-width: 400px;
+min-height: 400px;
+font-size: 3rem;
+color: #fff;
+margin: 0 0 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.banner3{
+background: #008080;
+background-image: url(https://i0.wp.com/whattonews.ru/wp-content/uploads/2021/05/laytkoin-torguetsya-na-istoricheskom-maksimume-1.jpg?fit=1920%2C1280&ssl=1);
+background-size: cover;
+background-position: center;
+width: 100%;
+min-width: 400px;
+min-height: 400px;
+font-size: 3rem;
+color: #fff;
+margin: 0 0 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.banner4{
+background: #008080;
+background-image: url(https://avatars.mds.yandex.net/get-zen_doc/3985748/pub_5f76f0f7f050116064f45208_5f76f103fffdfb22e7c9df1b/scale_1200);
+background-size: cover;
+background-position: center;
+width: 100%;
+min-width: 400px;
+min-height: 400px;
+font-size: 3rem;
+color: #fff;
+margin: 0 0 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.posts{
+margin: 0 0 30px 30px;
+flex: row 200px;
+font-size: 35px;
+}
+.comments{
+margin: 0 0 30px 30px;
+flex: row 200px;
+font-size: 20px;
+}
+.comment{
+display: flex;
+}
+.comment-side{
+padding-right: 20px;
+flex: none;
+}
+.comment-base{
+flex: auto;
+}
+.comment-avatar{
+background-image: url(https://www.brisbanepartycruises.com.au/wp-content/uploads/2020/08/warning-icon-red-triangle-sign-line-signage-traffic-sign-symbol-png-clip-art.png);
+background-size: cover;
+background-position: center;
+width: 70px;
+height: 70px;
+}
+.footer{
+background: #2f4f4f;
+width: 100%;
+max-width: 960px;
+min-width: 460px;
+color: #fff;
+margin: auto;
+padding: 15px;
+box-sizing: border-box;
+}
+
+@media screen and  (max-width: 800px) {
+.banners{
+margin-left: -30px;
+display: flex;
+flex-basis: 100%;
+}
+.banner{
+margin-left: 30px;
+}
+.posts{
+margin-left: 0;
+}
+}
+@media screen and  (max-width: 600px) {
+.content{
+display: block;
+}
+.banners{
+margin: 0;
+display: block;
+}
+.banner{
+margin-left: 0;
+}
+.posts{
+margin: 0;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a>
+ <a href="index.html"><img class="logo" src="https://cdn-icons-png.flaticon.com/128/37/37333.png" width="100px" height="300px" alt="banner"> </a>
+</a>
+<nav class="nav">
+<a href="https://bitinfocharts.com/ru/crypto-kurs/" target="_blank" class="nav-item">Курс</a>
+<a href="https://accounts.binance.com/ru/register?ref=58041813" target="_blank" class="nav-item">Покупка</a>
+<a href="https://ru.tradingview.com/markets/cryptocurrencies/ideas/" target="_blank" class="nav-item">Прогнозы</a>
+<a href="https://ru.investing.com/news/cryptocurrency-news" target="_blank" class="nav-item">Новости</a>
+</nav>
+
+</header>
+<main class="main">
+<div class="box">
+<div class="box-base">
+<h1>Ethereum</h1> 
+<p>Ethereum — это криптовалюта, но её «умные контракты» могут использоваться в различных финансовых областях. О своём интересе к платформе заявили различные организации, включая Microsoft, IBM, JPMorgan Chase. Bloomberg Businessweek утверждает, что распределённое программное обеспечение Ethereum может быть использовано всеми, кому нужна защита от несанкционированного вмешательства. «Вы можете спокойно делать бизнес с кем-то, кого вы не знаете, потому что условия прописаны в умном контракте, встроенном в блокчейн».
+
+По данным Нью-Йорк Таймс, к марту 2016 года были уже десятки функционирующих приложений, построенных на платформе Ethereum. Примеры таких приложений и платформ:
+
+децентрализованный и инвестиционный фонды;
+социально-экономическая платформа: Backfeed;
+платформа для монетизации рейтинга в играх: FreeMyVunk;
+беспристрастная краудфандинговая платформа для творческих проектов и средств массовой информации: The Rudimental;
+децентрализованный обмен опционами: Etheropt.
+</p>
+<p> <script class="sqr"<script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
+<coingecko-coin-converter-widget  coin-id="ethereum" currency="usd" background-color="#ffffff" font-color="#4c4c4c" locale="ru"></coingecko-coin-converter-widget>
+
+
+</div>
+<div class="box-side">
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="comments"  id="comments">
+<div class="comment">
+<div class="comment-side">
+<div class="comment-avatar"> 
+
+</div>
+</div>
+<div class="comment-base">
+<h1 class="comment-title">ВАЖНЫЙ ДИСКЛЕЙМЕР: </h1>
+<p>Контент, представленный на нашем сайте получен из сторонних источников и предназначен исключительно для информационных целей. Мы не даем гарантий в отношении этого контента, в том числе в отношении его актуальности и достоверности. Эти материалы не следует воспринимать в качестве финансовых или юридических советов. Используйте их на свой страх и риск только после тщательного анализа, исследования и проверки. Трейдинг — это высокорискованный вид деятельности, чреватый возможными убытками. Посоветуйтесь с финансовым консультантом, прежде чем принимать какие-либо решения. Содержимое Сайта не может считаться предложением или руководством к действию.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</main>
+<footer class="footer"  id="footer">
+<script src="https://widgets.coingecko.com/coingecko-coin-price-static-headline-widget.js"></script>
+<coingecko-coin-price-static-headline-widget  coin-ids="bitcoin,ethereum,litecoin,dash" currency="usd" locale="ru" background-color="#a3a3a3"></coingecko-coin-price-static-headline-widget>
+</footer>
+</body>
+</html>
